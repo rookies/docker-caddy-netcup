@@ -29,6 +29,6 @@ jobs:
             linux/amd64
             linux/arm64
           tags: |-
-            ghcr.io/rookies/docker-caddy-netcup:${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || 'review' }}
-            ghcr.io/rookies/docker-caddy-netcup:latest
+            ghcr.io/rookies/caddy-netcup:${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || 'review' }}
+            ghcr.io/rookies/caddy-netcup:latest
           push: ${{ startsWith(github.ref, 'refs/tags/') }}
