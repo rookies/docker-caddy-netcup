@@ -1,5 +1,5 @@
 # https://github.com/caddyserver/caddy/releases
-ARG CADDY_VERSION=2.11.4
+ARG CADDY_VERSION=2.11.7
 # https://github.com/caddy-dns/netcup/releases
 ARG CADDY_DNS_NETCUP_VERSION=1.0.0
 
